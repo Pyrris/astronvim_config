@@ -4,5 +4,5 @@ return {
   opts = {
     enabled = true,
   },
-  vim.api.nvim_set_keymap("n", "<leader>m", ":ASToggle<CR>", {}),
+  vim.api.nvim_set_keymap("n", "<leader>m", ":Toggle Auto-Save<CR>", {}),
 }
